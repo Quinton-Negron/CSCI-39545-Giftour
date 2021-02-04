@@ -12,7 +12,7 @@ import CoreData
 extension ReminderItem {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<ReminderItem> {
-        return NSFetchRequest<ReminderItem>(entityName: "Notification")
+        return NSFetchRequest<ReminderItem>(entityName: "ReminderItem")
     }
 
     @NSManaged public var remindAt: Date?
