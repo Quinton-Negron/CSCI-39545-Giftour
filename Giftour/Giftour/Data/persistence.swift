@@ -14,7 +14,7 @@ class persistence{
         return persistentContainer.viewContext
     }
     static var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "Date")
+        let container = NSPersistentContainer(name: "giftour")
         container.loadPersistentStores { (storeDescription, error)
             in
             if let error = error {
